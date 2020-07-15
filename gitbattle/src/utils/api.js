@@ -1,5 +1,5 @@
 function getErrorMessage(username, message) {
-	if (message == 'Not Found') {
+	if (message === 'Not Found') {
 		return `${username} does not exist`
 	}
 	return message
